@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar {
+  width: 70%;
+  height: 95%;
+  background-color: #f3f3f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.new {
+  width: 70%;
+  height: 85%;
+  background-color: #1b182e;
+  border-radius: 3px;
+  display: flex;
+}
+.box1 {
+  width: 45%;
+  height: 85%;
+  background-color: #2b2841;
+  margin-left: 25px;
+  margin-top: 35px;
+}
+.box2 {
+  width: 45%;
+  height: 85%;
+  background-color: #27233f;
+  margin-left: 50px;
+  margin-top: 35px;
+  margin-right: 25px;
+}
+.top {
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.icon {
+  color: white;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.logo {
+  background-image: url(/moh-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 110px;
+
+  border-radius: 2px;
+}
+.contener {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+h2 {
+  color: white;
+  font-size: 15px;
+  margin: 10px 0px;
+}
+.po {
+  color: #fc747d;
+  margin: 10px 0px;
+}
+.last {
+  display: flex;
+  color: white;
+  /* justify-content: ; */
+}
+.last i {
+  margin-left: 125px;
+  color: black;
+}
+h5 {
+  color: black;
+}
+.end {
+  width: 100%;
+  height: 40%;
+  background-color: #35324e8f;
+  color: rgba(255, 255, 255, 0.274);
+  border-radius: 10px;
+}
+.o1 {
+  height: 70px;
+  width: 60px;
+  background-color: aqua;
+  background-image: url(/daniil-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.o2 {
+  width: 60px;
+  height: 70px;
+  background-color: rgb(255, 0, 0);
+  background-image: url(/spa-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.o3 {
+  width: 60px;
+  height: 70px;
+  background-color: rgb(72, 255, 0);
+  background-image: url(/spac-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.cc {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pp{
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.603);
+}
+
+.not{
+  padding: 5px;
+  
+}
+input{
+  background-color:#27233F ;
+  border-radius: 5px;
+}
+.nv{
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  
+}
+button{
+  background-color:#EF69A2 ;
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 30px;
+  border-radius: 15px;
+}
